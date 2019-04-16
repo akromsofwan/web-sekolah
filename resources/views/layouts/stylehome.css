@@ -1,0 +1,318 @@
+<style>
+
+    /*HEADER*/
+        nav{
+            border-radius: 0 0 20px 20px;
+            color: #eee ;
+        }
+        .nav span{
+            font-size: 14px;
+            font-family: 'Lilita One', cursive;
+            text-shadow: 1px 1px 2px rgba(0,0,0,.3);
+        }
+        nav img{
+            filter: drop-shadow(1px 1px 2px rgba(0,0,0,.3));
+        }
+        .nav-link{
+            text-shadow: 1px 1px 2px rgba(0,0,0,.3);
+            color: #fff !important;
+        }
+
+    /*SAMBUTAN*/
+        .selamat{
+            /*margin-top: 85px;*/
+        }
+
+
+
+    /*CAROUSEL*/
+        .carousel{
+            margin-top: 10px;
+        }
+
+
+    /*FLOAT KIRI*/
+        
+        /*pendahuluan*/
+        .pendahuluan figure img{
+                max-height: 150px;
+        }
+
+
+        /*news*/ /*program unggulan*/
+        .news figure img, .programunggulan figure img{
+                max-height: 400px;
+        }
+        .news h2, .programunggulan h2, .ppdb h2, .profil h2{
+            padding: 8px;
+            background-color: red;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 0 0 15px 15px;
+        }
+        .news h6, .programunggulan h6{
+            font-weight: bold;
+        }
+        .news hr, .programunggulan hr{
+            border-bottom: 1px solid #777;
+        }
+
+
+        /*deskripsi*/
+        .programunggulan .deskripsi, .news .deskripsi{
+            height: 81px;
+            overflow: hidden;
+            /*white-space: pre-wrap;*/
+            text-overflow: unset;
+        }
+        .kiri .deskripsi{
+            text-overflow: unset;
+            white-space: pre-wrap;
+        }
+
+        /*Video*/
+            .video iframe{
+                box-shadow: 0 0 10px 1px rgba(0,0,0,.3); 
+            }
+
+        /*Maps*/
+            .maps{
+                margin-top: 20px;
+            }
+            .maps iframe{
+                box-shadow: 0 0 10px 1px rgba(0,0,0,.3);               
+            }
+        /*Gurukaryawan*/
+            .gurukaryawan img{
+                width: 100px;
+                height: 100px;
+            }
+        /*Kanan*/
+            .kanan{
+                padding-bottom: 50px;
+            }
+
+            /*jadwal sholat*/
+
+    /*FLOAT KANAN*/
+        /*pengumuman*/
+        .pengumuman, .pesan, .kalender, .jadwalsholat{
+            border: 2px solid #aaa;
+            border-radius: 12px 12px 0 0;
+        }
+        .pengumuman h2, .pesan h2, .kalender h2, .jadwalsholat h2{
+            padding: 8px;
+            border-radius: 10px 10px 0 0;
+            background-color: red;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        
+
+
+    /*FOOTER*/
+        footer{
+            color: #eee;
+            margin-top: 50px;
+        }
+        footer .copy{
+            background-color: #262245;
+            border-radius: 20px 20px 0 0;
+        }
+        footer .content{
+            background-color: #6F6EFF;
+            padding: 10px;   
+        }
+        footer a{
+            color: #fff;
+            opacity: .5;
+            padding: 10px;
+            transition: .3s;
+        }
+        footer a:hover{
+            opacity: .8;
+        }
+
+
+
+
+
+
+    /*UTILITIES*/
+        p, a, ol, figcaption, .news h6{
+            font-size: 13px;
+        }
+        h1{
+            font-size: 20px;
+        }
+        h2{
+            font-size: 18px;
+        }
+        h3{
+            font-size: 17px;
+        }
+        h4{
+            font-size: 16px;
+        }
+        h5{
+            font-size: 15px;
+        }
+        h6{
+            font-size: 14px;
+        }
+
+
+
+        .detail p{
+            font-size: 12px;
+        }
+        
+            
+
+    /*===============DESKTOP VERSION===============*/
+
+@media (min-width: 992px) { 
+    /*HEADER*/
+        .nav span{
+            font-size: 14px;
+            font-family: 'Lilita One', cursive;
+        }
+
+    /*CAROUSEL*/
+        .carousel{
+            margin-top: 50px;
+        }
+        .carousel img{
+        max-width: 1200px;
+        max-height: 500px;
+        margin-top: 10px;
+        }
+        
+
+    /*FLOAT KIRI*/
+        /*pendahuluan*/
+        .pendahuluan figure img{
+            max-height: 250px;
+        }
+        /*sejarah*/
+        .sejarah figure img{
+            max-width: 350px;
+        }
+
+        /*news, program unggulan*/
+        .news figure img, .programunggulan figure img{
+            max-height: 400px;
+            max-height: 300px;
+        }
+        .news hr, .programunggulan hr{
+            opacity: 0;
+        }
+
+        /*deskripsi*/
+        .programunggulan .deskripsi, .news .deskripsi{
+            height: 70px;
+            overflow: hidden;
+            /*white-space: pre-wrap;*/
+            text-overflow: unset;
+        }
+
+    /*VIDEO*/
+        .video{
+            margin-top: 50px;
+        }
+        .video iframe{
+            width: 650px;
+            height: 400px;
+        }
+
+    /*MAPS*/
+        .maps{
+            margin-top: 50px;
+        }
+        .maps iframe{
+            width: 750px;
+            height: 450px;
+        }
+
+        /*Gurukaryawan*/
+            .gurukaryawan img{
+                width: 200px;
+                height: 200px;
+            }
+            .detailgurukaryawan img{
+                width: 250px;
+                height: 250px;
+            }
+
+    /*FOOTER*/
+        
+        
+        footer ul li{
+            font-size: 17px;
+        }
+
+
+
+    /*FLOAT KANAN*/
+
+        .kanan .hijriah:hover{
+            opacity: .5;
+        }
+        .pengumuman figure img{
+            max-height: 300px;
+        }
+        /*Jadwal sholat*/
+
+
+    /*UTILITIES*/
+        p, a, ol, figcaption{
+            font-size: 15px;
+        }
+        h1{
+            font-size: 32px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        h3{
+            font-size: 26px;
+        }
+        h4{
+            font-size: 20px;
+        }
+        h5{
+            font-size: 18px;
+        }
+        h6{
+            font-size: 16px;
+        }
+
+
+
+        .detail p{
+            font-size: 15px;
+        }
+        .detail img{
+            max-width: 800px;
+            max-height: 400px;
+        }
+        .detail .deskripsi{
+            overflow: hidden;
+            white-space: pre-wrap;
+        }
+
+
+    .kanan{
+            padding-bottom: 0px;
+        }
+
+
+    .kiri{
+            border-right: 1px solid #ddd;
+        }
+
+     }
+</style>

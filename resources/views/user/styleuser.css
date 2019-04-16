@@ -1,0 +1,82 @@
+  <style>
+    
+    .navbar-brand{
+      font-family: 'Lilita One', cursive;
+      font-size: 15px;
+    }
+    h1{
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    h3{
+      font-size: 15px;
+    }
+    h4{
+      font-size: 14px;
+    }
+    label{
+      font-size: 12px;
+    }
+    .form-control{
+      font-size: 12px;
+    }
+    p{
+      font-size: 13px;
+    }
+    .datadiri, .datasekolah, .dataortu, .datawali{
+      box-shadow:  0 0 5px 5px rgba(0,0,0,.2);
+      border-radius: 20px;
+      background-color: ##FBFBFB;
+    }
+    .btn{
+      font-size: 12px;
+    }
+
+
+
+
+
+    @media (min-width: 992px) {
+
+    .navbar-brand{
+      font-family: 'Lilita One', cursive;
+      font-size: 20px;
+    }
+    h1{
+      font-size: 40px;
+    }
+    h3{
+      font-size: 22px;
+    }
+    h4{
+      font-size: 18px;
+    }
+    label{
+      font-size: 16px;
+    }
+    .form-control{
+      font-size: 15px;
+    }
+    p{
+      font-size: 15px;
+    }
+    .datadiri, .datasekolah, .dataortu, .datawali{
+      box-shadow:  0 0 5px 5px rgba(0,0,0,.2);
+      border-radius: 20px;
+      background-color: ##FBFBFB;
+    }
+    .btn{
+      font-size: 15px;
+    }
+    
+
+
+
+
+
+
+
+    }
+
+
+  </style>
