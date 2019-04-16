@@ -20,7 +20,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 // ADMIN
-Route::group(['prefix' => 'akrom', 'middleware' => ['admin', 'auth']], function(){
+Route::group(['prefix' => 'admin', 'middleware' => ['admin', 'auth']], function(){
 	Route::resource('/', 'AdminController');
 });
 
